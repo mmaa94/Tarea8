@@ -1,0 +1,9 @@
+all: Tarea8
+
+Tarea8: Ultima_tarea.ipynb
+
+	ipython notebook Ultima_tarea.ipynb
+
+clean:
+
+	rm -f        *.jpg
